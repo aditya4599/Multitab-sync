@@ -1,0 +1,32 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #1b2942;
+  background: #f4f6fa;
+  --card: #ffffff;
+  --border: #d8deea;
+}
+
+:root[data-theme="dark"] {
+  color: #edf2fb;
+  background: #111827;
+  --card: #1f2937;
+  --border: #374151;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: inherit;
+  color: inherit;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
